@@ -29,9 +29,37 @@ public class Solution_efen {
         int count=0;
         while (start<=end){
             if (start==end){
-               // count=countRange(arr,)
+                count=countRange(arr,start,end);
+                if (count>1){
+                    return start;
+                }else{
+                    break;
+                }
+            }
+            mid=(start+end)/2;
+            count=countRange(arr,start,mid);
+            if (count>mid-start+1){
+                end=mid;
+            }else {
+                start=mid+1;
             }
         }
         return -1;
+    }
+
+    public static int countRange(int[] arr,int start,int end){
+        int count=0;
+        for (int i=0;i<arr.length;i++){
+            if (arr[i]>=start&&arr[i]<=end){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static void main(String[] args) {
+        int[] numbers={1,3,5,4,2,5,6,7};
+        int result=Solution_efen.getDuplication(numbers);
+        System.out.println(result);
     }
 }
