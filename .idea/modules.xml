@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/twodsearch/TwoDSearch.iml" filepath="$PROJECT_DIR$/twodsearch/TwoDSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/duplication/duplication.iml" filepath="$PROJECT_DIR$/duplication/duplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stringblank/stringblank.iml" filepath="$PROJECT_DIR$/stringblank/stringblank.iml" />
     </modules>
   </component>
 </project>
