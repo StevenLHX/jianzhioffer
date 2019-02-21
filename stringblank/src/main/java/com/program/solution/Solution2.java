@@ -37,6 +37,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
+
         String str="We are happy";
         int length=str.length();
         char[] olderArray=str.toCharArray();
