@@ -43,7 +43,7 @@ public class PathIn2DMatrix {
      * @param rows 矩阵行数
      * @param cols 矩阵列数
      * @param str 待搜索的字符串
-     * //@param pathLength 已经处理str中字符个数
+     * @param index 已经处理str中字符个数
      * @param row 当前处理的行数
      * @param col 当前处理的列数
      * @param visited 访问标记数组
@@ -54,6 +54,7 @@ public class PathIn2DMatrix {
             return true;
         }
         boolean hasPath=false;
+        //推断位置是否合法
         if (row>=0&&row<rows&&col>=0&&col<cols&&matrix[row*cols+col]==str[index]&&!visited[row*cols+col]){
             visited[row*cols+col]=true;
             //按左上右下进行搜索
