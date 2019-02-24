@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jianzhioffer" />
+        <module name="duplication" />
+        <module name="printlistreverse" />
+        <module name="reconstructedbinarytree" />
+        <module name="stringblank" />
+        <module name="TwoDSearch" />
       </profile>
     </annotationProcessing>
   </component>

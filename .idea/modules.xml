@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/twodsearch/TwoDSearch.iml" filepath="$PROJECT_DIR$/twodsearch/TwoDSearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/duplication/duplication.iml" filepath="$PROJECT_DIR$/duplication/duplication.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stringblank/stringblank.iml" filepath="$PROJECT_DIR$/stringblank/stringblank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fabonacci/fabonacci.iml" filepath="$PROJECT_DIR$/fabonacci/fabonacci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/findnextnode/findnextnode.iml" filepath="$PROJECT_DIR$/findnextnode/findnextnode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myqueue/myqueue.iml" filepath="$PROJECT_DIR$/myqueue/myqueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pathIn2DMatrix/pathIn2DMatrix.iml" filepath="$PROJECT_DIR$/pathIn2DMatrix/pathIn2DMatrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuanzhuanshuzu_min/xuanzhuanshuzu_min.iml" filepath="$PROJECT_DIR$/xuanzhuanshuzu_min/xuanzhuanshuzu_min.iml" />
     </modules>
   </component>
 </project>

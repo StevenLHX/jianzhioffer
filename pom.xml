@@ -12,6 +12,13 @@
         <module>duplication</module>
         <module>TwoDSearch</module>
         <module>stringblank</module>
+        <module>printlistreverse</module>
+        <module>reconstructedbinarytree1</module>
+        <module>findnextnode</module>
+        <module>myqueue</module>
+        <module>fabonacci</module>
+        <module>xuanzhuanshuzu_min</module>
+        <module>pathIn2DMatrix</module>
     </modules>
 
 
