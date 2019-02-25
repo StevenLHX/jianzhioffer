@@ -3,6 +3,8 @@ package com.program.solution;
 import java.util.Stack;
 
 /**
+ * 重尾到头打印链表
+ *
  * 输入一个链表，从尾到头打印链表每个节点的值。返回新链表。
  * 分析：
  * 可以借助栈也可以使用递归
@@ -44,7 +46,6 @@ public class PrintListReverse {
         printListReverseByRecursion(node1);//递归
     }
 }
-
 
 /**
  * 定义链表结构
