@@ -6,12 +6,72 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="duplication" />
-        <module name="printlistreverse" />
-        <module name="reconstructedbinarytree" />
-        <module name="stringblank" />
-        <module name="TwoDSearch" />
+        <module name="06_PrintListInReversedOrder" />
+        <module name="07_ConstructBinaryTree" />
+      </profile>
+      <profile name="Annotation profile for jianzhioffer" enabled="true">
+        <sourceOutputDir name="../stringblank/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../stringblank/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="05_ReplaceSpaces" />
+      </profile>
+      <profile name="Annotation profile for 09_QueueWithTwoStacks" enabled="true">
+        <sourceOutputDir name="../myqueue/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../myqueue/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="09_QueueWithTwoStacks" />
+      </profile>
+      <profile name="Annotation profile for 10_Fibonacci" enabled="true">
+        <sourceOutputDir name="../fabonacci/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../fabonacci/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="10_Fibonacci" />
+      </profile>
+      <profile name="Annotation profile for 08_NextNodeInBinaryTrees" enabled="true">
+        <sourceOutputDir name="../findnextnode/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../findnextnode/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="08_NextNodeInBinaryTrees" />
+      </profile>
+      <profile name="Annotation profile for 12_StringPathInMatrix" enabled="true">
+        <sourceOutputDir name="../pathIn2DMatrix/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../pathIn2DMatrix/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="12_StringPathInMatrix" />
+      </profile>
+      <profile name="Annotation profile for 11_MinNumberInRotatedArray" enabled="true">
+        <sourceOutputDir name="../xuanzhuanshuzu_min/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../xuanzhuanshuzu_min/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="11_MinNumberInRotatedArray" />
+      </profile>
+      <profile name="Annotation profile for 03_DuplicationInArray" enabled="true">
+        <sourceOutputDir name="../duplication/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../duplication/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="03_DuplicationInArray" />
+      </profile>
+      <profile name="Annotation profile for 04_FindInPartiallySortedMatrix" enabled="true">
+        <sourceOutputDir name="../twodsearch/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../twodsearch/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="04_FindInPartiallySortedMatrix" />
+      </profile>
+      <profile name="Annotation profile for 13_RobotMove" enabled="true">
+        <sourceOutputDir name="../movingCount/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../movingCount/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="13_RobotMove" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="07_ConstructBinaryTree" target="1.5" />
+      <module name="08_NextNodeInBinaryTrees" target="1.5" />
+      <module name="09_QueueWithTwoStacks" target="1.5" />
+      <module name="10_Fibonacci" target="1.5" />
+      <module name="11_MinNumberInRotatedArray" target="1.5" />
+      <module name="12_StringPathInMatrix" target="1.5" />
+      <module name="13_RobotMove" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

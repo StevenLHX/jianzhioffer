@@ -19,6 +19,7 @@
         <module>fabonacci</module>
         <module>xuanzhuanshuzu_min</module>
         <module>pathIn2DMatrix</module>
+        <module>movingCount</module>
     </modules>
 
 
