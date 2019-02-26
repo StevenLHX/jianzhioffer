@@ -11,6 +11,7 @@ package com.program.solution;
  * 把负数0x80000000右移一位的时候，并不是简单地把最高位的1移到第二位变成0x40000000，而是0xC0000000。
  * 这是因为移位前是个负数，仍然保证移位是个负数，因此移位后的最高位会设为1。
  * 如果一直做右移位运算，最终这个数字会变成0xFFFFFFFF而陷入死循环。
+ *
  */
 public class Solution_1 {
     public static int fun(int num){
