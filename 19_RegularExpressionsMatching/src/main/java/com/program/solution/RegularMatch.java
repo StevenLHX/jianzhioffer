@@ -61,5 +61,4 @@ public class RegularMatch {
         boolean result=test.match(str.toCharArray(),pattern.toCharArray());
         System.out.println(result);
     }
-
 }
