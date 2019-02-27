@@ -81,6 +81,7 @@ public class DeleteNodeOfDuplication {
         test.printList(resultList);
     }
 }
+
 class ListNode{
     int nodeValue;
     ListNode nextNode;
