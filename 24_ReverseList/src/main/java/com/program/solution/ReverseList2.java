@@ -10,6 +10,7 @@ public class ReverseList2 {
         if (head==null||head.getNext()==null){
             return null;
         }
+
         //TODO 有问题
         //先反转后续节点
         ListNode2 reHead = reverse2(head.getNext());
