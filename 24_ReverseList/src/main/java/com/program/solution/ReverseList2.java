@@ -10,6 +10,7 @@ public class ReverseList2 {
         if (head==null||head.getNext()==null){
             return null;
         }
+        //TODO 有问题
         //先反转后续节点
         ListNode2 reHead = reverse2(head.getNext());
         head.getNext().setNext(head); //将当前节点的指针域指向上一节点
@@ -46,7 +47,7 @@ public class ReverseList2 {
 
     public static void printList(ListNode2 head){
         while (head!=null){
-            System.out.print(head.getValue()+' ');
+            System.out.print(head.getValue()+" ");
             head=head.getNext();
         }
     }
