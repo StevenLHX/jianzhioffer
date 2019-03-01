@@ -78,7 +78,6 @@ public class MergeList {
     }
 
 }
-
 class ListNode{
     int value;
     ListNode next;
