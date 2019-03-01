@@ -54,6 +54,7 @@ public class ReverseList2 {
         }
     }
 }
+
 class ListNode2{
     int value;
     ListNode2 next;
