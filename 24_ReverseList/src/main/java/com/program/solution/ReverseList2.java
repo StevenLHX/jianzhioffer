@@ -78,4 +78,5 @@ class ListNode2{
     public void setNext(ListNode2 next) {
         this.next = next;
     }
+
 }
