@@ -7,6 +7,7 @@ import java.util.Queue;
  * 请完成一个函数，输入一个二叉树，该函数输出它的镜像
  */
 public class MirrorOfBinaryTree {
+
     //递归实现
     public static void mirrorTree(BinaryTreeNode root){
         if (root==null){
