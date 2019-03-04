@@ -33,7 +33,7 @@ public class MinInStack {
 
     //最小值
     public static Integer min(){
-        assert(dataStack.size()>0&&minStack.size()>0);
+        assert (dataStack.size()>0&&minStack.size()>0);
         return minStack.peek();
     }
 
