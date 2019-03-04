@@ -53,5 +53,4 @@ public class MinInStack {
         push(0);
         System.out.println(min());
     }
-
 }
