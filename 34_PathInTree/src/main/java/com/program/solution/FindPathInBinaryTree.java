@@ -56,6 +56,7 @@ public class FindPathInBinaryTree {
         System.out.println();
     }
 
+    //测试
     public static void main(String[] args) {
         BinaryTreeNode root=new BinaryTreeNode(10);
         root.left=new BinaryTreeNode(5);
@@ -65,6 +66,7 @@ public class FindPathInBinaryTree {
         findPathInTree(root,22);
     }
 }
+//定义二叉树
 class BinaryTreeNode{
     int val;
     BinaryTreeNode left;
