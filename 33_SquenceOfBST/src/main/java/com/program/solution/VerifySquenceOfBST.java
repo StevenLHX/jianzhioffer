@@ -35,7 +35,6 @@ public class VerifySquenceOfBST {
         boolean result = verifySquenceOfBST(arrs, 0, args.length - 1);
         System.out.println(result);
     }
-
 }
 //定义二叉树
 class BinaryTreeNode{
