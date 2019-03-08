@@ -2,6 +2,11 @@ package com.program.solution;
 
 /**
  * 方法二：根据数组特点找出时间复杂度为O(N)的算法
+ * 思路：
+ * 该数组出现的次数大于所有其他数字出现的次数之和，
+ * 因此我们在遍历数组时保存两个值：一个是数组中的数字，另一个是次数
+ * 当我们遍历下一个数字的时候，如果和我们之前保存的相同，则次数+1；
+ * 如果不同，则次数-1；如果次数减为0，我们需要保存下一个数字，并把次数设为1
  */
 public class MoreThanHalfNum2 {
     public static int findTarget22(int[] arr){
