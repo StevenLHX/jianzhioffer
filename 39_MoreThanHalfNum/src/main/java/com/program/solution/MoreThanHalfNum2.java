@@ -20,6 +20,7 @@ public class MoreThanHalfNum2 {
         for (int i=0;i<nlength;i++){
             if (times==0){
                 res=arr[i];
+                times=1;
             }else if (arr[i]==res){
                 times++;
             }else {
@@ -58,7 +59,7 @@ public class MoreThanHalfNum2 {
     }
 
     public static void main(String[] args) {
-        int arr[]= {1,2,3,2,2,2,5,4,2};
+        int arr[]= {1,2,3,2,2,2,5,2,4};
         int result = findTarget22(arr);
         System.out.println(result);
     }
