@@ -24,7 +24,7 @@ public class GetKLeastNumbers2 {
         if (arr==null||k<0||k>arr.length){
             return;
         }
-        //根据输入数组前k个数简历最大堆
+        //根据输入数组前k个数建立最大堆
         //从k+1个数开始与根节点比较
         //大于根节点，舍去
         //小于，取代根节点，重建最大堆
@@ -41,6 +41,8 @@ public class GetKLeastNumbers2 {
         }
     }
 
+    //调整堆。使得堆顶为最大值，叶子节点都为最小值，
+    // 然后用叶子节点的值（从右往左）依次替换堆顶，同时把堆顶的值移除。
     public static void heapSort(int[] arr){
         for (int i=0;i<arr.length-1;i++){
             buildMaxHeap(arr,arr.length-i-1);
@@ -48,7 +50,7 @@ public class GetKLeastNumbers2 {
         }
     }
 
-    //新建大顶堆
+    //新建大顶堆。堆顶为最小值，下面依次增大，叶子节点都是最大值，类似于冒泡排序
     public static void buildMaxHeap(int[] arr,int lastIndex){
         for (int i=(lastIndex-1)/2;i>=0;i--){
             int k=i;
