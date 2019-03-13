@@ -14,6 +14,7 @@ public class TranslateNumbersToStrings {
         }
         return translationCount(String.valueOf(number));
     }
+
     public static int translationCount(String number){
         int length=number.length();
         int[] countRecords=new int[length];
