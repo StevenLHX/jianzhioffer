@@ -32,4 +32,5 @@ public class MaxValueOfGifts2 {
                 { 3, 7, 16, 5 } };
         System.out.println(getMaxValue(arr));
     }
+
 }
