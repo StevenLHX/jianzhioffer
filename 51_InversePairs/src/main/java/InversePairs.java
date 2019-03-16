@@ -79,4 +79,9 @@ public class InversePairs {
         //返回该范围内逆序对的数量
         return (count+left+right)%1000000007;
     }
+
+    public static void main(String[] args) {
+        int[] data={7,5,6,4};
+        System.out.println(inversePairs(data));//6？？？
+    }
 }
