@@ -6,7 +6,12 @@ import java.util.Stack;
  * 输入两个链表，找出它们的第一个公共结点。
  */
 public class FirstCommonNodesInLists {
-    //方法一
+    /**
+     * 方法一
+     * 借助于栈的先进后出，由于找到两个链表的第一个公共结点，故这个链表在公共结点以后是一个Y字型，
+     * 故我们将两个链表放入栈中，来找到栈中最后一个相同的结点，即为链表的第一个公共结点。
+     * （利用空间来换取时间）
+     */
     public static ListNode findFirst(ListNode root1,ListNode root2){
         Stack<ListNode> s1=new Stack<>();
         Stack<ListNode> s2=new Stack<>();
@@ -35,7 +40,12 @@ public class FirstCommonNodesInLists {
         return null;
     }
 
-    //方法二，高效的解法
+    /**
+     * 方法二，高效的解法
+     * 首先遍历两个链表得出两个链表的长度，得出长的链表比短的链表多几个元素，
+     * 然后长的链表就先走几个元素，然后使其没有遍历的元素和短的链表的元素长度相等。
+     * 然后再进行遍历，找到第一个公共结点。
+     */
     public static ListNode findFirstCommonNode(ListNode root1,ListNode root2){
         if (root1==null||root2==null){
             return null;
@@ -103,7 +113,6 @@ public class FirstCommonNodesInLists {
         System.out.println(test2node.val);
     }
 }
-
 //定义链表
 class ListNode{
     int val;
