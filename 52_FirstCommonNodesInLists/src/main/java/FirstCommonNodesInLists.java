@@ -103,6 +103,7 @@ public class FirstCommonNodesInLists {
         System.out.println(test2node.val);
     }
 }
+
 //定义链表
 class ListNode{
     int val;
