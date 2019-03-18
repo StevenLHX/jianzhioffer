@@ -33,7 +33,6 @@ public class NumberOfK {
         return count;
     }
 
-
     public static void main(String[] args) {
         int[] array={1,2,3,3,3,3,4,5};
         System.out.println(countOfK(array, 3));
