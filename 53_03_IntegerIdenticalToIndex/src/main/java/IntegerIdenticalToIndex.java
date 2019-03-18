@@ -34,4 +34,5 @@ public class IntegerIdenticalToIndex {
         int[] array={-3,-1,1,3,5};
         System.out.println(getNumberSameAsIndex(array));
     }
+
 }
