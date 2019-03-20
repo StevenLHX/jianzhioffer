@@ -4,7 +4,7 @@
  * 只遍历一遍
  */
 public class BalancedBinaryTree2 {
-    private boolean isBanlance;
+    private boolean isBanlance=false;
     public boolean isBalance_Solution(BinaryTreeNode2 root){
         getDepth(root);
         return isBanlance;
