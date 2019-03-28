@@ -65,7 +65,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="07_ConstructBinaryTree" target="1.5" />
       <module name="08_NextNodeInBinaryTrees" target="1.5" />
       <module name="09_QueueWithTwoStacks" target="1.5" />
       <module name="10_Fibonacci" target="1.5" />
